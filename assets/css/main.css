@@ -1877,6 +1877,7 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+			font-size: 150%;
 		}
 
 		.icon > .label {
@@ -1916,8 +1917,8 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				color: #6F00FF;
+				border-color: #6F00FF;
 			}
 
 			.icon.style2:active {
@@ -2103,7 +2104,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		margin: -1em 0 2em -1em;
+		margin: 0 8em 2em 0;
 	}
 
 		ul.icons li {
@@ -2816,7 +2817,7 @@ input, select, textarea {
 
 				.tiles article {
 					width: calc(33.33333% - 1.25em);
-					margin: 1.25em 0 0 1.25em;
+					margin: 1.25em 1.25em 1em 1.25em;
 				}
 
 		}
@@ -2870,7 +2871,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -3192,7 +3193,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 0em 0 6em 0 ;
+		padding: 0em 0 2em 0 ;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3242,7 +3243,7 @@ input, select, textarea {
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
+				margin-top: 2em;
 				list-style: none;
 				font-size: 0.8em;
 				color: rgba(88, 88, 88, 0.5);
@@ -3269,7 +3270,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 0 0 0 0 ;
 			}
 
 				#footer > .inner section:nth-child(1) {
